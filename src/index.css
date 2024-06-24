@@ -34,9 +34,10 @@ li {
   }
   
   .header {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-      url("../../assets/Header.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../src/assets/pexels-cottonbro-3944310.jpg");
     background-size: cover;
+    background-position: center;
     height: 40vh;
   }
   

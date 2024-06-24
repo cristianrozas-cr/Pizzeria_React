@@ -5,7 +5,7 @@ import { PizzaContext } from "../contexts/PizzaContext";
 
 const NavBar = () => {
 
-    const {carrito} = useContext(PizzaContext);
+    const {carrito, calcularTotal} = useContext(PizzaContext);
 
   return (
     <div className="navbar text-white py-3">
@@ -18,7 +18,7 @@ const NavBar = () => {
             <h4 className="mb-0">&#127829; Pizzería Mamma Mia!</h4>
           </Link>
 
-          <NavLink to="/carrito" className="logo-nombre mx-1 mb-0">Carrito: {carrito.length}</NavLink>
+          <NavLink to="/carrito" className="logo-nombre mx-1 mb-0">&#128722; ${calcularTotal(carrito)}</NavLink>
 
         </div>
       </div>

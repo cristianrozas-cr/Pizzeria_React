@@ -36,9 +36,9 @@ const Card = () => {
               </ul>
             </div>
 
-            <h2 className="text-center text-dark pb-3">
-              Precio: {(pizza.price)}
-            </h2>
+            <h4 className="text-center text-dark pb-3">
+              Precio: ${(pizza.price)}
+            </h4>
 
             <div className="d-flex justify-content-around mb-4">
               <button

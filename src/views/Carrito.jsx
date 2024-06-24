@@ -4,6 +4,7 @@ import { PizzaContext } from "../contexts/PizzaContext"
 
 //importar navbar
 import NavBar from "../components/NavBar"
+import Footer from "../components/Footer"
 
 function Carrito(){
 
@@ -41,7 +42,7 @@ function Carrito(){
                         </div>
                     </div>
                 </div>
-                <h2>Total:  {calcularTotal(carrito)}</h2>
+                <h2>Total: ${calcularTotal(carrito)}</h2>
             </div>
         </>
     )
