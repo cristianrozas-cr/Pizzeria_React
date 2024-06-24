@@ -53,7 +53,7 @@ const Card = () => {
                 className="btn btn-danger"
                 onClick={() => agregarAlCarrito(pizza)}
               >
-                Añadir &#128722;
+                Agregar al carrito &#128722;
               </button>
             </div>
           </div>

@@ -18,7 +18,7 @@ const NavBar = () => {
             <h4 className="mb-0">&#127829; Pizzería Mamma Mia!</h4>
           </Link>
 
-          <NavLink to="/carrito" className="logo-nombre mx-1 mb-0">&#128722; ${calcularTotal(carrito)}</NavLink>
+          <NavLink to="/carrito" className="logo-nombre mx-1 mb-0">&#128722; Total: ${calcularTotal(carrito)}</NavLink>
 
         </div>
       </div>
